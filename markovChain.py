@@ -5,7 +5,6 @@ def markov(input, legnth):
     #legnth = word legnth of output text
     #separate text into dict of words
     words = input.split()
-    #todo: iterate through all words and create dictionary entries with all the words that come after each occurance of said word and how many times they do
     wordList = {i:[] for i in words} #make dict of lists
     
     pos = 0
